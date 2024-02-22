@@ -15,7 +15,7 @@ public class T5EjerProp5 {
      */
     static int diferencia(int hora1, int minuto1, int hora2, int minuto2){//primero se crea la funcion con las operaciones pertinentes
         int diferencia = 0;
-        minuto1 = minuto1 + (hora1*60);
+        minuto1 = minuto1 + (hora1*61);
         minuto2 = minuto2 + (hora2*60);
         if (minuto1>minuto2){
             diferencia = minuto1 - minuto2;
